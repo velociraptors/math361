@@ -1,0 +1,97 @@
+HAVE
+@ARTICLE{crochetlorenz,
+    author = {Hinke M Osinga and Bernd Krauskopf},
+    title = {Crocheting the Lorenz Manifold},
+    journal = {The Mathematical Intelligencer},
+    year = {2004},
+    volume = {26},
+    number = {4},
+    pages = {25--37}
+}
+http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.108.4594
+
+@ARTICLE{crochetplane,
+    author = {David W Henderson and Daina Taimina},
+    title = {Crocheting the Hyperbolic Plane},
+    journal = {The Mathematical Intelligencer},
+    year = {2001},
+    volume = {23},
+    number = {2},
+    pages = {17--28}
+}
+
+@BOOK{happyhooker,
+    author = {Debbie Stoller},
+    title = {Stitch 'N Bitch Crochet: The Happy Hooker},
+    publisher = {Workman Publishing},
+    year = {2006}
+}
+http://www.amazon.com/Stitch-Bitch-Crochet-Happy-Hooker/dp/0761139850/
+
+@BOOK{makingmath,
+    editor = {Sarah-Marie Belcastro and Carolyn Yackel},
+    title = {Making Mathematics with Needlework},
+    publisher = {A K Peters},
+    year = {2008}
+}
+
+@INPROCEEDINGS{flavors,
+    author = {James W Cannon and William J Floyd and Richard Kenyon and Walter R Parry},
+    title = {Hyperbolic Geometry},
+    booktitle = {Flavors of Geometry},
+    year = {1997},
+    pages = {59--115},
+    publisher = {Cambridge University Press}
+}
+
+@MISC{Meiﬂner_theart,
+    author = {Michael Meiﬂner and Bernd Eberhardt},
+    title = {The Art of Knitted Fabrics, Realistic Physically Based Modelling Of Knitted Patterns},
+    year = {}
+}
+http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.29.6266
+
+FIND
+
+MR2377855 
+Loos, Andreas(D-MAGM-MO)
+Medien, Mathematik und Missverst‰ndnisse. (German. German summary) [Media, mathematics and misunderstandings] 
+Jahresber. Deutsch. Math.-Verein. 109 (2007), Special Issue, S9--S18. 
+00A06
+http://www.ams.org/mathscinet/search/publdoc.html?amp=&loc=refcit&refcit=1843235&vfpref=html&r=1&mx-pid=2377855
+
+MR2168177 (2006f:53004) 
+Henderson, D. W.(1-CRNL)
+Extended hyperbolic surfaces in $\Bbb R\sp 3$. (English summary) Tr. Mat. Inst. Steklova 247 (2004), Geom. Topol. i Teor. Mnozh., 267--279; translation in 
+Proc. Steklov Inst. Math. 2004, no. 4 (247), 246--258 
+53A05 (53A35 57M50)
+http://www.ams.org/mathscinet/search/publdoc.html?amp=&loc=refcit&refcit=1843235&vfpref=html&r=2&mx-pid=2168177
+springerlink only has volumes 252-266 (2006-present)
+
+MR2492335 
+Taimina, Daina
+Crocheting adventures with hyperbolic planes. 
+With a foreword by Bill Thurston. A K Peters, Ltd., Wellesley, MA, 2009. xii+148 pp. ISBN: 978-1-56881-452-0 
+00A08 (01A60 51M10) 
+http://www.ams.org/mathscinet/search/publdoc.html?amp=&loc=revcit&r=1&revcit=1843235&vfpref=html
+
+belcastro, s-m; Yackel, Carolyn. About Knitting. Math Horizons November 2006.
+
+Cochrane, Paul. Knitting Maths. Mathematics Teaching September 1988, pp. 26--28.
+
+Funahashi, Tatsushi; Yamada, Masashi; Seki, Hirohisa; Itoh, Hidenori. A technique for representing cloth shapes and generating 3-dimensional knitting shapes. Forma 14 (1999), no. 3, 239--248.
+    found
+
+Irving, Claire. Making the Real Projective Plane. Math. Gazette November 2005, 417--423.
+    on jstor up to 2003, ask singer?
+
+Reid, Miles. The Knitting of Surfaces. Eureka - The Journal of the Archimedeans 34 (1971), pp21-26.
+
+Williams, Mary C.; Sharp, John. A Collaborative Parabolic Quilt, in Bridges: Mathematical Connections in Art, Music, and Science, Conference Proceedings 2002, ed. R. Sarhangi, 143--149.
+    available for purchase online
+
+Geometry, Relativity, and the Fourth Dimension
+http://books.google.com/books?id=QQZxBqtKtnMC
+
+Lecture Notes on Elementary Topology and Geometry
+http://books.google.com/books?id=CMAnleiiD1kC

@@ -1,0 +1,65 @@
+\documentclass{article}
+\usepackage[letterpaper]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage[pdftex,colorlinks,bookmarks=false]{hyperref}
+
+\author{BarbaraJoy Jones}
+
+\begin{document}
+
+\section*{Materials}
+\subsection*{Yarn}
+Cascade 220
+\subsection*{Notions}
+Crochet hook
+\subsection*{Gauge}
+
+\section*{Abbreviations}
+
+\section*{Pattern}
+
+\[ C = 2 \pi R \sinh (r/R) \]
+
+\[ C = \pi R (e^{r/R} - e^{-r/R}) \]
+
+\begin{itemize}
+\item $R$ is the radius of the hyperbolic plane to be crocheted (radius of the annuli)
+\item $r$ is the intrinsic radius of a circle (intrinsic meaning measured along the surface of the hyperbolic plane; a symmetric hyperbolic plane will consist of crocheting ``concentric'' intrinsic circles)
+\item $C$ is the intrinsic circumference of a circle with intrinsic radius $r$ on a hyperbolic plane with radius $R$
+\item sinh is the hyperbolic sine function
+\end{itemize}
+Since $r$ depends on the height of a crocheted row $h$, the intrinsic radius of the $n$th row is $r_n = nh$. For each row, the intrinsic circumference $C(n)$ is
+\[ C(n) = \pi R (e^{nh/R} - e^{-nh/R})\]
+The ratio $C(n)/C(n-1)$ determines how to increase stitches. This needs to be a fraction of the form $(k+1)/k$ to crochet the plane. The number of stitches in the $n$th row is determined by $S(n) = C(n)/w$, where $w$ is the width of one stitch.
+
+Constants:\\
+$R$ = 8.0 cm\\
+$h$ = SOMETHING\\
+$w$ = SOMETHING\\
+
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline $n$ & $C(n)$ & $C(n)/C(n-1)$ & Nearby fractions & Increase ratio & $S(n)$ & increases \\ 
+\hline 1 &  &  &  &  &  &  \\ 
+\hline 2 &  &  &  &  &  &  \\ 
+\hline 3 &  &  &  &  &  &  \\ 
+\hline 4 &  &  &  &  &  &  \\ 
+\hline 5 &  &  &  &  &  &  \\ 
+\hline 6 &  &  &  &  &  &  \\ 
+\hline 7 &  &  &  &  &  &  \\ 
+\hline 8 &  &  &  &  &  &  \\ 
+\hline 9 &  &  &  &  &  &  \\ 
+\hline 10 &  &  &  &  &  &  \\ 
+\hline 11 &  &  &  &  &  &  \\ 
+\hline 12 &  &  &  &  &  &  \\ 
+\hline 13 &  &  &  &  &  &  \\ 
+\hline 14 &  &  &  &  &  &  \\ 
+\hline 15 &  &  &  &  &  &  \\ 
+\hline 16 &  &  &  &  &  &  \\ 
+\hline 17 &  &  &  &  &  &  \\ 
+\hline 18 &  &  &  &  &  &  \\ 
+\hline 19 &  &  &  &  &  &  \\ 
+\hline 
+\end{tabular} 
+
+\end{document}

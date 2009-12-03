@@ -1,0 +1,8 @@
+
+*.aux
+*.log
+*.bbl
+/roughdraft.blg
+/Topics09.pdf
+/midterm.pdf
+*.blg
