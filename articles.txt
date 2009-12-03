@@ -67,6 +67,7 @@ Proc. Steklov Inst. Math. 2004, no. 4 (247), 246--258
 53A05 (53A35 57M50)
 http://www.ams.org/mathscinet/search/publdoc.html?amp=&loc=refcit&refcit=1843235&vfpref=html&r=2&mx-pid=2168177
 springerlink only has volumes 252-266 (2006-present)
+found
 
 MR2492335 
 Taimina, Daina
@@ -74,6 +75,7 @@ Crocheting adventures with hyperbolic planes.
 With a foreword by Bill Thurston. A K Peters, Ltd., Wellesley, MA, 2009. xii+148 pp. ISBN: 978-1-56881-452-0 
 00A08 (01A60 51M10) 
 http://www.ams.org/mathscinet/search/publdoc.html?amp=&loc=revcit&r=1&revcit=1843235&vfpref=html
+found
 
 belcastro, s-m; Yackel, Carolyn. About Knitting. Math Horizons November 2006.
 
@@ -86,6 +88,7 @@ Irving, Claire. Making the Real Projective Plane. Math. Gazette November 2005, 4
     on jstor up to 2003, ask singer?
 
 Reid, Miles. The Knitting of Surfaces. Eureka - The Journal of the Archimedeans 34 (1971), pp21-26.
+found
 
 Williams, Mary C.; Sharp, John. A Collaborative Parabolic Quilt, in Bridges: Mathematical Connections in Art, Music, and Science, Conference Proceedings 2002, ed. R. Sarhangi, 143--149.
     available for purchase online
