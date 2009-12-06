@@ -11,14 +11,10 @@
 
 \title{\todo{FANCY TITLE}}
 \author{BarbaraJoy Jones}
-\date{\todo{16 October 2009}}
+\date{4 December 2009}
 
 \begin{document}
 \maketitle
-
-\section{testing stuff}
-thingy \cite{R3surfaces}
-stupid gauss \cite{gauss}
 
 \section{Intro?}
 blah blah blah but we're living in a Euclidean world.\footnote{And I am a Euclidean girl.\cite{madonna}} blah blah shape of the universe.
@@ -26,9 +22,26 @@ blah blah blah but we're living in a Euclidean world.\footnote{And I am a Euclid
 \section{Curvature}
 In the $\mathbb{R}^2$ plane, straight lines have zero curvature and circles have constant curvature.
 For a circle of radius $R$, the curvature can be defined as $\frac{1}{R}$.
-This is fairly intuitive: small circles bend a lot, while arcs of very large circles appear to be nearly straight.\cite{adventures}
+This is fairly intuitive: small circles curve a lot, while arcs of very large circles appear to be nearly straight.\cite{adventures}
+For smooth curves without constant curvature, the curvature must be defined at a point $P$ rather than for the curve as a whole.
+If we choose points on either side of $P$, we can find the circle that passes through the three points.
+Choosing points closer and closer to $P$ will produce better approximations of the curve.
+The curvature at $P$ is defined by $\kappa(P) = \frac{1}{R}$, where $R$ is the radius of the osculating circle (the circle that is the best approximation of the curve).
+The sign of $\kappa(P)$ can be determined by choosing the direction of the normal vector at $P$.
+By convention, the curvature is positive if the curve lies on one side of the line tangent to $P$ and the normal vector points to the same side.
+If the normal vector points to the opposite side of the tangent line as the curve, the curvature is negative.
+The curve will cross the tangent line at $P$ if $\kappa(P)$ is zero.\cite{singer}
+
+A similar approach can be used for the curvature of surfaces in $\mathbb{R}^3$, as shown by Euler.
+Given a smooth surface $\Sigma$ and a point $P$ on $\Sigma$, we define the normal line $l$ as the line through $P$ perpendicular to the tangent plane at $P$.
+We then form the intersection of $\Sigma$ with a plane that contains $l$ and compute the curvature $\kappa$ of the intersection curve (i.e., the normal section) in that plane, given by
+\[ \kappa = \kappa_1 \cos^2 \theta + \kappa_2 \sin^2 \theta \]
+where $\kappa_1$ is the largest curvature, $\kappa_2$ is the smallest curvature, and $\theta$ is the angle between the planes corresponding to $\kappa_1$ and $\kappa$.
+The planes corresponding to $\kappa_1$ and $\kappa_2$ are orthogonal.
+The sign of the normal curvature is dependent upon the choice of the normal.
+Replacing the normal line $l$ with a normal vector to the surface allows us to fix the sign of the curvature.\cite{singer}
+This is a measure of \emph{extrinsic} curvature, because Euler's method depends on knowing how the surface is embedded in space.\cite{adventures}
 \subsection{Gaussian (intrinsic) curvature}
-\subsection{2D curvature}
 \subsection{3D curvature}
 
 \section{Models of the hyperbolic plane}
