@@ -203,6 +203,7 @@ This also holds true for the sphere.\cite{adventures}
 \section{Proof that we obtain a hyperbolic plane}
 The annular method of construction satisfies the following descriptions of the hyperbolic plane.
 \subsection{Defining geodesic coordinates}
+\label{geodesics}
 Proving that we obtain the hyperbolic plane is much easier with a system of natural coordinates.
 We begin by defining $H_\delta$ as the approximation of the annular hyperbolic plane constructed from annuli of fixed inner radius $\rho$ and thickness $\delta$.
 Pick as the base curve the inner curve of any annulus on $H_\delta$ and pick any point on the curve to call the origin $O$.
@@ -251,7 +252,7 @@ If we explicitly solve for $z$, we get
 z = \sqrt{\rho^2 - R^2} - \rho \ln \left| \frac{\rho + \sqrt{\rho^2 - R^2}}{R} \right|
 \end{equation}
 Thus, $z$ is a continuously differentiable function of $R$ and the derivative (for $z \not= 0$) is never zero.
-This means $R$ is also a continuously differentiable function of $Z$ and we conclude that this is the pseudosphere.\cite{crochetplane}
+This means $R$ is also a continuously differentiable function of $z$ and we conclude that this is the pseudosphere.\cite{crochetplane}
 
 \subsection{Riemannian manifolds with constant negative Gaussian curvature}
 A surface is a Riemannian manifold if it is differentiably embedded into \esp ~by an isometry whose first and second derivatives are continuous ($C^2$).
@@ -268,7 +269,27 @@ The curvature of the circle is $1/R(z)$, defined above, and when projected perpe
 \[ \frac{1}{R(z)\sqrt{1+{(R'(z))^2}}} \]
 We can use \eqref{drdz} to find that the product of these normal curvatures is $\frac{-1}{\rho^2}$, thus proving that the pseudosphere has constant negative Gaussian curvature.\cite{crochetplane}
 
-\subsection{upper half-plane model}
+\subsection{The upper half-plane model}
+The coordinate map $\mathbf{x}$ defined in \ref{geodesics} preserves distances along the vertical second coordinate curves.
+The distances along the first coordinate curves at $\mathbf{x}(a,b)$ are distorted by a factor of $\exp(-b/\rho)$ as compared to $\mathbb{R}^2$ distances.
+\begin{quote}
+\emph{
+Let $\mathbf{y}:A \to B$ be a map from one metric space to another, and let $t \mapsto \lambda(t)$ be a curve in A. Then, the \emph{distortion} of $\mathbf{y}$ along $\lambda$ at the point $p = \lambda(0)$ is defined as:
+}
+\[ \lim_{x \to 0}
+\frac{\text{arc length along }\mathbf{y}(\lambda)\text{ from }\mathbf{y}[\lambda(x)]\text{ to }\mathbf{y}[\lambda(0)]}
+{\text{arc length along }\lambda\text{ from }\lambda(x)\text{ to }\lambda(0)}
+\]
+\end{quote}
+The map will be conformal (i.e., it will preserve angles) if distances are distorted to the same degree in both coordinate directions.
+To obtain this, we need a change of coordinates that will distort equally in both directions.
+We must try to make the distortion in the second coordinate direction the same as the distortion in the first, since zero distortion in both coordinate directions would be an isometry and as such is not possible.
+This change of coordinates is
+\[ \mathbf{z}(x,y) = \mathbf{x} \left[x, \rho \ln \left(\frac{y}{\rho} \right)\right] \]
+where $\mathbf{x}$ is the geodesic coordinate map defined in \ref{geodesics}.
+The domain of $\mathbf{z}$ is the upper half-plane
+\[ \mathbb{R}^{2+} \equiv \left\{ (x,y) \in \mathbb{R}^2 | y > 0 \right\} \]
+This is the upper half-plane model of the hyperbolic plane.
 
 %\section{historical/philosophical content: other combinations of fiber arts and non-euclidean geometry}
 %\subsection{Other things that are hyperbolic planes\cite{adventures}}
