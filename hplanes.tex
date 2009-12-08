@@ -29,7 +29,11 @@ This is fairly intuitive: small circles curve a lot, while arcs of very large ci
 For smooth curves without constant curvature, the curvature must be defined at a point $P$ rather than for the curve as a whole.
 If we choose points on either side of $P$, we can find the circle that passes through the three points.
 Choosing points closer and closer to $P$ will produce better approximations of the curve.
-The curvature at $P$ is defined by $\kappa(P) = \frac{1}{R}$, where $R$ is the radius of the osculating circle (the circle that is the best approximation of the curve).
+The curvature at $P$ is defined by
+\begin{equation}
+\kappa(P) = \frac{1}{R}
+\end{equation}
+where $R$ is the radius of the osculating circle (the circle that is the best approximation of the curve).
 The sign of $\kappa(P)$ can be determined by choosing the direction of the normal vector at $P$.
 By convention, the curvature is positive if the curve lies on one side of the line tangent to $P$ and the normal vector points to the same side.
 If the normal vector points to the opposite side of the tangent line as the curve, the curvature is negative.
@@ -39,7 +43,10 @@ This means of determining curvature requires us to observe how a one-dimensional
 A similar approach can be used for the curvature of surfaces in $\mathbb{R}^3$, as shown by Euler.
 Given a smooth surface $\Sigma$ and a point $P$ on $\Sigma$, we define the normal line $l$ as the line through $P$ perpendicular to the tangent plane at $P$.
 We then form the intersection of $\Sigma$ with a plane that contains $l$ and compute the curvature $\kappa$ of the intersection curve (i.e., the normal section) in that plane, given by
-\[ \kappa = \kappa_1 \cos^2 \theta + \kappa_2 \sin^2 \theta \]
+\begin{equation}
+\kappa = \kappa_1 \cos^2 \theta + \kappa_2 \sin^2 \theta
+\label{euler}
+\end{equation}
 where $\kappa_1$ is the largest curvature, $\kappa_2$ is the smallest curvature, and $\theta$ is the angle between the planes corresponding to $\kappa_1$ and $\kappa$.
 The planes corresponding to $\kappa_1$ and $\kappa_2$ are orthogonal.
 The sign of the normal curvature is dependent upon the choice of the normal.
@@ -53,10 +60,22 @@ The ant can still determine that she is living on a sphere without measuring ext
 If she ties a short rope of length $r$ to a post at the point $P$, holds the other end of the rope, and walks in a circle around the post with the rope held taut, she can measure the distance $\delta$ around the circle.
 She knows that the circumference of a Euclidean circle, so she can determine that she lives on a sphere if $\delta < 2\pi r$.\cite{adventures}
 The ant observes the intrinsic properties of the surface to come to this conclusion, rather than external knowledge of the shape.
+The amount that the circumference of a circle differs from $2\pi r$ is called the angle defect\footnote{Or the angle excess, if greater than $2\pi r$.}.
+This allows us to define the intrinsic curvature at a point $P$ to be
+\begin{equation}
+K_P = \lim{r \to 0} \frac{\theta_r}{A_r}
+\label{circle}
+\end{equation}
+where $\theta_r$ is the angle defect of a circle centered at $P$ and $A_r$ is the area of the circle.
+If $K_P \not= 0$ (i.e., the surface is not flat), then $A_r \not= \pi r^2$.\cite{makingmath}
 
 Gauss defined the intrinsic curvature of a surface at a point $P$ as
-\[ K = \kappa_1\kappa_2 \]
+\begin{equation}
+K = \kappa_1\kappa_2
+\label{gauss}
+\end{equation}
 where $\kappa_1$ and $\kappa_2$ are the principal curvatures\footnote{The principal curvatures $\kappa_1,\kappa_2$ are the same as the curvatures of the intersection curves in Euler's definition of extrinsic curvature.} at $P$.\cite{gauss}
+While \eqref{circle} is equivalent to \eqref{gauss}, the Gaussian curvature (defined in \eqref{gauss}) is rather more useful.
 Spheres, like circles, have constant curvature.
 This means that we are not required to make a choice for the sign of the curvature.
 $K$, the product of the principal curvatures, will always be positive.
