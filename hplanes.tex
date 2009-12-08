@@ -142,7 +142,7 @@ An approximation of the hyperbolic plane is constructed by cutting out of paper 
 The strips are attached together with the inner circle of one taped to the outer circle of another or with the straight ends together.
 Holding $\rho$ fixed while letting $\delta \to 0$ allows us to obtain the actual annular hyperbolic plane.\cite{crochetplane}\cite{adventures}
 \subsection{Crocheting the hyperbolic plane}
-Choose a yarn that is not very stretchy (cheap acrylic yarn works very well) and a crochet hook slightly smaller than the size recommended on the label.
+Choose a yarn that is not very stretchy (cheap acrylic yarn works very well) and a crochet hook slightly smaller than the size recommended on the label.\footnote{For those readers who do not already know how to crochet, a very good reference can be found in \cite{happyhooker}.}
 \begin{itemize}
 \item Work 10-20 chain stitches.
 \item For each row, single crochet for the first $n$ stitches.
@@ -235,7 +235,7 @@ The annular curves are called \emph{horocycles} and can be described as circles 
 As previously discussed, the hyperbolic plane has the same intrinsic geometry as the pseudosphere.
 To prove this, take the annulus whose inner edge is the base curve and isometrically embed it in the $x-y$ plane as a complete annulus with center at the origin.
 Attach portions of the other annuli such that they form truncated cones.
-Let the vertical axis be the $z$-axis.\footnote{See Figures 10 and 11 of \cite{crochetplane}, but note that the notation used in the figures is incorrect. With some intuition, the reader should be able to correct this.}
+Let the vertical axis be the $z$-axis.\footnote{See Figures 10 and 11 of \cite{crochetplane}, but be forewarned that the notation used in the figures is incorrect. With some intuition, the reader should be able to correct this.}
 This leads to
 \begin{equation}
 \frac{\Delta R}{\Delta z} = \frac{-R(z)}{\sqrt{ \left(\rho+\delta\right)^2 - R(z)^2 }}
@@ -251,9 +251,23 @@ If we explicitly solve for $z$, we get
 z = \sqrt{\rho^2 - R^2} - \rho \ln \left| \frac{\rho + \sqrt{\rho^2 - R^2}}{R} \right|
 \end{equation}
 Thus, $z$ is a continuously differentiable function of $R$ and the derivative (for $z \not= 0$) is never zero.
-This means $R$ is also a continuously differentiable function of $Z$ and we conclude that this is the pseudosphere.
+This means $R$ is also a continuously differentiable function of $Z$ and we conclude that this is the pseudosphere.\cite{crochetplane}
 
-\subsection{Riemannian manifold with constant negative Gaussian curvature}
+\subsection{Riemannian manifolds with constant negative Gaussian curvature}
+A surface is a Riemannian manifold if it is differentiably embedded into \esp ~by an isometry whose first and second derivatives are continuous ($C^2$).
+The \emph{normal direction} at a given point $P$ on the surface is chosen to be one of the two directions that are perpendicular to the surface at $P$.
+We define the \emph{normal curvature} at a point $P$ of a curve $\sigma$ on the surface as the component of the curvature of $\sigma$ in the normal direction.
+The principal curvatures at $P$ are the maximal and minimal values of the collection of all normal curvatures of all smooth curves through $P$.
+As previously discussed, the Gaussian curvature of the surface at $P$ is the product of the principal curvatures.
+
+The pseudosphere is a Riemannian surface.
+The principal curvatures are the normal curvatures of the generating curves $z \mapsto R(z)$ and the circle $\theta \mapsto [R(z), \theta]$ at each point on the pseudosphere $[z, R(z), \theta]$.
+The curvature of the first curve, perpendicular to the surface, is
+\[ \frac{-R''(z)}{[1+(R'(z))^2]^{3/2}} \]
+The curvature of the circle is $1/R(z)$, defined above, and when projected perpendicular to the surface, gives the normal curvature as
+\[ \frac{1}{R(z)\sqrt{1+{(R'(z))^2}}} \]
+We can use \eqref{drdz} to find that the product of these normal curvatures is $\frac{-1}{\rho^2}$, thus proving that the pseudosphere has constant negative Gaussian curvature.\cite{crochetplane}
+
 \subsection{upper half-plane model}
 
 %\section{historical/philosophical content: other combinations of fiber arts and non-euclidean geometry}
@@ -262,8 +276,8 @@ This means $R$ is also a continuously differentiable function of $Z$ and we conc
 %\subsection{Knitting non-Euclidean Pants \cite{makingmath}}
 %\subsection{Scarves and other M\"obius Knitting \cite{magicalknitting}\cite{magicalknitting2}}
 
-\section*{appendix: basic crochet info}
-Instructions on standard crochet stitches, particularly those used for constructing hyperbolic planes. \cite{happyhooker}
+%\section*{appendix: basic crochet info}
+%Instructions on standard crochet stitches, particularly those used for constructing hyperbolic planes. \cite{happyhooker}
 
 \newpage
 \bibliography{math}
