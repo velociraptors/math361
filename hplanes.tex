@@ -176,12 +176,16 @@ where $\rho$ is the radius of the hyperbolic plane to be crocheted, $r$ is the i
 Since $r$ depends on the height of a crocheted row $h$, the intrinsic radius of the $n$th row is $r_n = nh$.
 For each row, the intrinsic circumference $C(n)$ is
 \begin{equation}
-C(n) = \pi R \left( e^{nh/R} - e^{-nh/R} \right)
+C(n) = \pi R \left( e^{nh/\rho} - e^{-nh/\rho} \right)
 \label{Cn}
 \end{equation}
 The ratio $\frac{C(n)}{C(n-1)}$ determines how to increase stitches.
 This needs to be a fraction of the form $\frac{(k+1)}{k}$, where $k$ is an integer, to crochet the plane.
 The number of stitches in the $n^{\text{th}}$ row is determined by $S(n) = \frac{C(n)}{w}$, where $w$ is the width of one stitch.
+We can use \eqref{Cn} and the ratio $\frac{C(n)}{C(n-1)}$ to construct a table determining the increase ratio for each row.
+As the plane grows, the increase ratio will eventually stabilize.
+While $r$ is small, the $e^{-r/\rho}$ term in \eqref{Cn} is significant.
+When $r$ is large enough, we find 
 
 \subsection{Radius and curvature of hyperbolic planes}
 \label{hradius}
