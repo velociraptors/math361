@@ -209,6 +209,23 @@ Now we construct an intrinsic coordinate system $\mathbf{x}_\delta : \mathbb{R}^
 We further define $\mathbf{x}_\delta(w,s)$ to be the point at a distance $s$ from $\mathbf{x}_\delta(w,0)$ along the radial curve\footnote{Along the radii of each annulus.} through $\mathbf{x}_\delta(w,0)$, choosing the positive direction to be from the outer curve to the inner curve of each annulus.
 If we were to crochet indefinitely, this coordinate map is one-to-one and onto.
 
+Exploration of the crocheted hyperbolic plane allows us to easily observe several facts.
+First, the radial curves are geodesics\footnote{Intrinsically straight lines.} that have intrinsic reflection symmetry due to the symmetry of the annuli and the fact that the radial curves intersect the bounding curves at right angles.
+Reflection through these curves is an isometry.
+Second, the radial geodesics are asymptotic.
+If $\lambda$ and $\mu$ are radial geodesics in $H_\delta$, the distance between them changes by $\frac{\rho}{\rho+\delta}$ every time they cross an annulus.
+When we cross $n$ annuli at a distance $c = n\delta$ from the base curve, the distance between $\lambda$ and $\mu$ is
+\[ d \left( \frac{\rho}{\rho+\delta} \right)^n =  \left( \frac{\rho}{\rho+\delta} \right)^{c/\delta} \]
+Taking the limit as $\delta \to 0$ gives
+\[ d \exp{-c/\rho} \]
+as the distance between $\lambda$ and $\mu$.
+Spheres and Euclidean planes never have asymptotic geodesics.
+Finally, there is an isometry that preserves the annuli.
+The composition of two reflections through radial geodesics must be an isometry that preserves each annulus, but it cannot be a rotation (as it would be in the Euclidean plane) because an annulus has no center.
+Furthermore, the radial geodesics do not intersect so the isometry has no fixed point.
+It also cannot be a translation because the isometry does no fixed geodesic.
+Instead, the isometry is called a \emph{horolation} and can be thought of as shifting the annulus along itself or as a rotation about a point at infinity.
+The annular curves are called \emph{horocycles} and can be described as circles with infinite radius.
 
 \subsection{Euclid's Postulates}
 The first four postulates hold, while the fifth postulate does not.
