@@ -197,7 +197,7 @@ The radius of an annular hyperbolic plane is defined as $\rho$, the radius of th
 We obtain different hyperbolic planes depending on the value of $\rho$; small values produce very ``ruffly'' planes while larger values produce less ruffly planes.
 As $\rho$ increases, the plane has less curvature and hence becomes flatter.
 In fact, as $\rho$ goes to infinity the plane becomes indistinguishable from the Euclidean plane.
-This also holds true for the sphere.
+This also holds true for the sphere.\cite{adventures}
 
 \section{Proof that we obtain a hyperbolic plane}
 The annular method of construction satisfies the following descriptions of the hyperbolic plane.
@@ -217,7 +217,10 @@ If $\lambda$ and $\mu$ are radial geodesics in $H_\delta$, the distance between 
 When we cross $n$ annuli at a distance $c = n\delta$ from the base curve, the distance between $\lambda$ and $\mu$ is
 \[ d \left( \frac{\rho}{\rho+\delta} \right)^n =  \left( \frac{\rho}{\rho+\delta} \right)^{c/\delta} \]
 Taking the limit as $\delta \to 0$ gives
-\[ d \exp{-c/\rho} \]
+\begin{equation}
+d \exp{-c/\rho}
+\label{distance}
+\end{equation}
 as the distance between $\lambda$ and $\mu$.
 Spheres and Euclidean planes never have asymptotic geodesics.
 Finally, there is an isometry that preserves the annuli.
@@ -225,10 +228,30 @@ The composition of two reflections through radial geodesics must be an isometry 
 Furthermore, the radial geodesics do not intersect so the isometry has no fixed point.
 It also cannot be a translation because the isometry does no fixed geodesic.
 Instead, the isometry is called a \emph{horolation} and can be thought of as shifting the annulus along itself or as a rotation about a point at infinity.
-The annular curves are called \emph{horocycles} and can be described as circles with infinite radius.
+The annular curves are called \emph{horocycles} and can be described as circles with infinite radius.\cite{crochetplane}
 
-\subsection{Pseudosphere}
-Same intrinsic geometry as the pseudosphere
+\subsection{The hyperbolic plane as a pseudosphere}
+As previously discussed, the hyperbolic plane has the same intrinsic geometry as the pseudosphere.
+To prove this, take the annulus whose inner edge is the base curve and isometrically embed it in the $x-y$ plane as a complete annulus with center at the origin.
+Attach portions of the other annuli such that they form truncated cones.
+Let the vertical axis be the $z$-axis.\footnote{See Figures 10 and 11 of \cite{crochetplane}, but note that the notation used in the figures is incorrect. With some intuition, the reader should be able to correct this.}
+This leads to
+\begin{equation}
+\frac{\Delta R}{\Delta z} = \frac{-R(z)}{\sqrt{ \left(\rho+\delta\right)^2 - R(z)^2 }}
+\end{equation}
+Taking the limit as $\delta$, $\Delta R$, and $\Delta z$ go to zero gives
+\begin{equation}
+\frac{dR}{dz} = \frac{-R(z)}{\sqrt{\rho^2 - R(z)^2}}
+\label{drdz}
+\end{equation}
+Using \eqref{distance} implies that the circle at height $z$ has circumference $2\pi \rho e^{-s/\rho}$, where $s$ is the arc length along the surface from $(0,\rho)$ to $(z,R(z))$.
+If we explicitly solve for $z$, we get
+\begin{equation}
+z = \sqrt{\rho^2 - R^2} - \rho \ln \left| \frac{\rho + \sqrt{\rho^2 - R^2}}{R} \right|
+\end{equation}
+Thus, $z$ is a continuously differentiable function of $R$ and the derivative (for $z \not= 0$) is never zero.
+This means $R$ is also a continuously differentiable function of $Z$ and we conclude that this is the pseudosphere.
+
 \subsection{Riemannian manifold with constant negative Gaussian curvature}
 \subsection{upper half-plane model}
 
